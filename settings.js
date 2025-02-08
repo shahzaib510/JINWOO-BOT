@@ -1,11 +1,11 @@
-/*project_name : JINWOO BOT
-@author : MALVIN KING
-@youtube : https://www.youtube.com/@malvintech2 
-@instagram : malvinking20
-@telegram : t.me/malvintech
-@github : kingmalvn 
-@tiktok : malvinquotes
-@whatsapp : +263714757857
+/*project_name : SHAHZAIB BOT
+@author : SHAHZAIB KING
+@youtube : https://www.youtube.com/@shahzaibislamicworld
+@instagram : shahzaib_rana110
+@telegram : t.me/lol
+@github : lol
+@tiktok : shahzaibrana110
+@whatsapp : +923326977224
 */
  
 //=================================================//
@@ -15,11 +15,11 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
 //=================================================//
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'Jinwoo-Bot:~RtJDGZSA#ToaS2RYauO0RifWusd4DDsHNH-kuCDvwcTJ0lfL_LZY' 
 //Enter your Xploader session id here; must start with Jinwoo-Bot:~
 
 //=================================================//
-global.botname = process.env.BOT_NAME || 'ᎫᏆΝᏔϴϴ ᏴϴͲ' 
+global.botname = process.env.BOT_NAME || 'SHAHZAIB BOT' 
 //Your desired bot name
 
 //=================================================//
@@ -32,21 +32,21 @@ global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['263780934873', 
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //=================================================//
-global.ownername = process.env.OWNER_NAME || 'Malvin' 
+global.ownername = process.env.OWNER_NAME || 'SHAHZAIB' 
 //Type your name here
 
 //=================================================//
 global.plink = process.env.PLINK || "https://www.instagram.com/techlord01?igsh=OHB3b3BqMjZpMjdy=="
 
 //=================================================//
-global.wm = process.env.GL_WM || "©ᎫᏆΝᏔϴϴ ᗷOT"
+global.wm = process.env.GL_WM || "©SHAHZAIB BOT💙"
 
 //=================================================//
-global.packname = process.env.STICKER_PACK_NAME || "ᎫᏆΝ" 
+global.packname = process.env.STICKER_PACK_NAME || "SHAHZAIB BOT" 
 //The sticker pack name
 
 //=================================================//
-global.author = process.env.STICKER_AUTHOR_NAME || "ᗷOT" 
+global.author = process.env.STICKER_AUTHOR_NAME || "SHAHZAIB BOT" 
 //The sticker author name
 
 //=================================================//
@@ -67,7 +67,7 @@ global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'true'
 global.anticall = process.env.ANTI_CALL || 'false'
 
 //=================================================//
-global.welcome = process.env.WELCOME_MSG || 'false'
+global.welcome = process.env.WELCOME_MSG || 'true'
 
 //=================================================//
 global.timezones = process.env.TIMEZONE || "Africa/Nairobi" 
@@ -78,7 +78,7 @@ global.autoread = process.env.AUTO_READ || 'false';
 // Set to 'true' to enable automatic reading of messages
 
 //=================================================//
-global.menustyle = process.env.MENU_STYLE || '2' 
+global.menustyle = process.env.MENU_STYLE || '3' 
 // options 1, 2, 3, 4 or 5
 // 1 = Document menu(Android only)
 // 2 = Text only menu(Android & iOS)
